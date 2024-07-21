@@ -3,6 +3,7 @@ FROM golang:1.22.5 as base
 
 WORKDIR /app
 
+
 COPY go.mod . 
 # cuz the dependencies for the app are stored here
 
